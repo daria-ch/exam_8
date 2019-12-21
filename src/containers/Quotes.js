@@ -15,10 +15,13 @@ class Quotes extends Component {
         }
     }
 
-    deleteQuote = () => {
-        const id = this.props.match.params.id;
-        axiosApi.delete('/quotes/' + id + '.json');
-        this.props.history.replace('/');
+    deleteQuote = async (event, id) => {
+        await axiosApi.delete('/quotes/' + id + '.json');
+        this.props.history.push('/quotes');
+        const response = await axiosApi.get('/quotes.json');
+        if (response.data) {
+            this.setState({quotes: response.data});
+        }
     };
 
     render() {
@@ -37,7 +40,7 @@ class Quotes extends Component {
                                         color="muted">Edit</Button>
                                 <Button style={{fontWeight: 'bold', marginLeft: '10px', borderColor: '#000'}}
                                         color="muted"
-                                        onClick={this.deleteQuote}
+                                        onClick={event => this.deleteQuote(event, quote)}
                                 >X</Button>
                             </div>
                         </CardBody>

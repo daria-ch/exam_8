@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f138f8-1c8d-4b84-949c-a122a73ed4c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/axios-api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navigation/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/QuoteForm/QuoteForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/EditQuote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/NewQuote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Quotes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Quotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quotes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576905076919</updated>
-      <workItem from="1576905079151" duration="17388000" />
+      <workItem from="1576905079151" duration="18042000" />
     </task>
     <servers />
   </component>

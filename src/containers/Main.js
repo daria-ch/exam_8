@@ -34,6 +34,10 @@ class Main extends Component {
     deleteQuote = async (event, id) => {
         await axiosApi.delete('/quotes/' + id + '.json');
         this.props.history.push('/');
+        const response = await axiosApi.get('/quotes.json');
+        if (response.data) {
+            this.setState({quotes: response.data});
+        }
     };
 
     render() {
